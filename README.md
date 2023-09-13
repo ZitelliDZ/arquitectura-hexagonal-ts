@@ -20,11 +20,12 @@ Se enfoca en hacer que la aplicación sea independiente de la infraestructura ex
   - El núcleo de la aplicación (lógica de negocio)
   - Los puertos (interfaces)
   - Los adaptadores (implementaciones concretas de las interfaces).
+
 Donde la comunicación va en una sola dirección (externa -> interna)
-
-
-Este es solo un primer paso para comprender el diseño de aplicaciones.
-
+##
+Estos enfoques poseen una cierta interelación.. las cuales me quedan seguir estudiando
+### Este es solo un primer paso para comprender el diseño de aplicaciones.
+##
 ## 🚀 Estructura del Proyecto
 
 Dentro del proyecto se encuentra el siguiente estructurado carpetas y archivos:
