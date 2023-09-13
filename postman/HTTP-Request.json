@@ -1,0 +1,85 @@
+{
+	"info": {
+		"_postman_id": "29923a03-be88-43d1-ac21-14be1e009a87",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "10337977"
+	},
+	"item": [
+		{
+			"name": "Agregar usuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"asdss\",\r\n    \"userName\":\"asdssss\",\r\n    \"age\":2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:4001/users"
+			},
+			"response": []
+		},
+		{
+			"name": "Listar usuarios",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"asdss\",\r\n    \"username\":\"asdss\",\r\n    \"age\":23\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:4001/users"
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar usuarios",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"asdss\",\r\n    \"username\":\"asdss\",\r\n    \"age\":55\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:4001/users/4e2af363-2f3d-4640-bb3c-738dfe9d5576"
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar usuarios",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"asdss\",\r\n    \"username\":\"asdss\",\r\n    \"age\":23\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:4001/users/4e2af363-2f3d-4640-bb3c-738dfe9d5576"
+			},
+			"response": []
+		}
+	]
+}

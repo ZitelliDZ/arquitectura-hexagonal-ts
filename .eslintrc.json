@@ -1,0 +1,14 @@
+{
+    "extends": "standard-with-typescript",
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    },
+    "indent": [
+        "error",
+        4
+    ],
+    "ignorePatterns": [
+        "dist",
+        "src/**/*.js"
+    ]
+}
